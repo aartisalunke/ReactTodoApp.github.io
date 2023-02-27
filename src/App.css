@@ -1,0 +1,215 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  color:#333;
+  background-color:white;
+   height:auto;
+  width:100vw;
+ }
+
+         /* sidebar menu */
+icon-bar{
+  color:#333;
+   background-color:#f4f4f4;
+   
+}
+
+.row{
+
+  
+  text-align: center;
+  
+}
+.logo{
+  background-color: rgb(14, 194, 14);
+  font-size:25px;
+  padding: 15px 2px;
+}
+.icons{
+  
+  display: block;
+  justify-content:center;
+  align-items: center;
+  text-size-adjust: 14px;
+  background-color:white;
+  padding:12px 0px;
+  font-size: larger;
+}
+.label{
+  font-size: 10px;
+  color: rgb(158, 157, 157);
+  padding: 5px;
+}
+
+   /* subsidebar left */
+.profile{
+  display: block;
+  justify-content:space-evenly;
+  align-items: center;
+  height: auto;
+}
+ .img {
+  height:12vh;
+  width: 6vw;
+  border: 1px solid black;
+  border-radius: 10rem;
+  margin-left: 100px;
+  margin-top: 10px; 
+  }
+
+  @media screen and (min-width:0px) and (max-width:480px){
+    .img{
+      margin: auto;
+      height:6vh;
+      width: 10vw;
+    }
+  }
+h3{
+  font-size: large;
+}
+.email{
+  font-size: 16px;
+  color: rgb(158, 157, 157);
+ 
+}
+.followers{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.info{
+  font-size: 14px;
+  color: rgb(158, 157, 157);
+ }
+.btn{
+  padding: 20px 0px;
+}
+
+button{
+font-size: small;
+ padding: 5px 40px;
+ border: 0.5px solid rgb(218, 215, 215);
+ background-color: #f4f4f4;
+ border-radius: 3px;
+}
+
+     /* left side file details */
+h6{
+  padding: 20px 10px;
+  text-align: start;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.list-group-item{
+  color:#333;
+  background-color:#f4f4f4;
+  border: none;
+ padding: 15px 5px;
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+  text-align:start;
+  margin: 2px;
+}
+       /* right side topcards section */
+.right{
+  margin: 10px 10px;
+  background-color: white;
+  padding: 15px 10px;
+}
+.topCard{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content:space-evenly;
+  margin: 15px 0px;
+}
+@media screen and (min-width:0px) and (max-width:480px){
+  .topCard{
+    width: 50%;
+    height: 100%;
+    flex-direction:column;
+    margin: auto;
+    flex-wrap:wrap;
+    
+  }
+}
+  
+
+.card{
+  background-color:white;
+  width:12vw;
+  display: flex;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  border-bottom:1px solid rgb(209, 207, 207);
+  border-radius: 0%;
+  padding:2px;
+  justify-content: space-between;
+  align-items:flex-start;
+  text-align:right ;
+ margin: 2px;
+  
+}
+.types{
+  font-size: 14px;
+  color: rgb(158, 157, 157);
+}
+.details{
+  font-weight: 400;
+  font-size: 15px;
+  color:#333;
+}
+ .middleSmallCard{
+  width: 70%;
+  display:flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 10px 5px;
+  font-size: 12px;
+  color: rgb(158, 157, 157);
+  background-color:#f4f4f4;
+ } 
+.active{
+  color: blue;
+  background-color: white;
+  padding: 2px 2px;
+}    
+
+       /* right side bottom section */
+.bottomRight{
+  width: 95%;
+  border-radius: 5px;
+  background-color:#f4f4f4;
+  margin: 15px 10px;
+}
+
+.cardBottomHead{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 10px 25px;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  border-bottom:1px solid rgb(209, 207, 207);
+  background-color:#f4f4f4;
+}
+ .last{
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 12px;
+  padding: 10px 0px;
+  margin: 15px 30px;
+ };
